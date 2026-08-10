@@ -15,6 +15,7 @@ public class Main4 {
             default : System.out.println("Invalid");
 
         }
+        sc.close();
 
     }
     

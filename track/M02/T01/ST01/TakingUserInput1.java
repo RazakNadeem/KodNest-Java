@@ -17,7 +17,7 @@ public class TakingUserInput1 {
 		int b = scan.nextInt();
 
 		System.out.println(b);
-
+		scan.close();
 	}
 
 }
