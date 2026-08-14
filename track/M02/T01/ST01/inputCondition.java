@@ -3,7 +3,6 @@ public class inputCondition{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int total=0;
-        String status;
         int days = scanner.nextInt();
         for(int i=1;i<=days;i++){
             int solvedProblems=scanner.nextInt();

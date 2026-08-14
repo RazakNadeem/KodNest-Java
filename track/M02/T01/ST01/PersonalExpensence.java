@@ -12,7 +12,6 @@ public class PersonalExpensence {
         double travelExpense = scanner.nextDouble();
         double totalExpense = rentExpense+foodExpense+travelExpense;
         double remaining = monthlyIncome - totalExpense;
-        String status;
         System.out.println("Total expense: "+totalExpense);
         System.out.println("Remaining: "+remaining);
         if(remaining >=0){
@@ -24,4 +23,4 @@ public class PersonalExpensence {
         scanner.close();
     }
 }
-}
+

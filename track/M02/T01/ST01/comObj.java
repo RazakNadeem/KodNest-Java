@@ -36,5 +36,6 @@ public class comObj {
         }
 
         // Compare both scores and print one result
+        scanner.close();
     }
 }
